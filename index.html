@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Iurie & Ana-Maria · 15.05.2027</title>
+  <meta name="description" content="Vă invităm cu drag la nunta noastră · 15 Mai 2027 · Lago Event Park, Sala Sicilia">
+  <!-- Keeps the invitation out of Google search results -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#23426e">
+
+  <!-- Link preview (WhatsApp / Viber / Telegram / Facebook).
+       After the site is online, replace SITE_URL with the real address,
+       e.g. https://your-username.github.io/iurie-anamaria/ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Iurie & Ana-Maria · 15.05.2027">
+  <meta property="og:description" content="Vă invităm cu drag la nunta noastră · Lago Event Park, Sala Sicilia">
+  <meta property="og:image" content="https://iurie-anamaria.github.io/assets/preview.jpg">
+  <meta property="og:url" content="https://iurie-anamaria.github.io/">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23c27a4e'/%3E%3Ctext x='32' y='42' font-family='Georgia' font-style='italic' font-size='26' fill='white' text-anchor='middle'%3EI%26amp;A%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/photo.jpg">
+  <link rel="stylesheet" href="css/theme.css?v=24">
+  <link rel="stylesheet" href="css/style.css?v=24">
+</head>
+<body class="locked">
+
+  <!-- ============ INTRO: envelope with wax seal → card with drawn flowers ============ -->
+  <div class="intro" id="intro" aria-modal="true" role="dialog">
+
+    <!-- the card inside the envelope -->
+    <div class="card-scene paper" id="cardScene">
+      <div class="step s1" id="step1">
+        <svg class="line-art s1-top" id="artTop" viewBox="0 0 120 200" aria-hidden="true"></svg>
+        <p class="s1-text" data-i18n="intro.invited"></p>
+        <svg class="line-art s1-bottom" id="artBottom" viewBox="0 0 120 200" aria-hidden="true"></svg>
+      </div>
+      <div class="step s2" id="step2">
+        <p class="s2-of" style="--d:.2s" data-i18n="intro.weddingOf"></p>
+        <svg class="line-art s2-flower" id="artFlower" viewBox="0 0 300 250" aria-hidden="true"></svg>
+        <p class="s2-names" style="--d:2.2s">Iurie & Ana-Maria</p>
+        <p class="s2-date" style="--d:2.9s" data-i18n="intro.dateLine"></p>
+        <p class="s2-place" style="--d:3.2s">LAGO EVENT PARK · SALA SICILIA</p>
+        <p class="s2-bottom" style="--d:3.7s" data-i18n="footer.text"></p>
+      </div>
+      <p class="tap-hint" id="tapHint" data-i18n="intro.continue"></p>
+    </div>
+
+    <!-- the envelope -->
+    <div class="envelope" id="envelope">
+      <div class="flap flap-l"><i class="paper"></i></div>
+      <div class="flap flap-r"><i class="paper"></i></div>
+      <div class="flap flap-b"><i class="paper"></i></div>
+      <div class="flap flap-t"><i class="paper"></i></div>
+      <p class="env-text env-hint" data-i18n="intro.open"></p>
+    </div>
+    <button class="seal" id="openBtn" aria-label="Open"></button>
+  </div>
+
+  <!-- ============ FIXED UI ============ -->
+  <div class="progress" id="progress"></div>
+  <a href="#top" class="brand-mini" id="brandMini">I&A</a>
+  <nav class="langbar" aria-label="Language">
+    <button data-lang="ro">RO</button><button data-lang="ru">RU</button><button data-lang="en">EN</button>
+  </nav>
+
+  <main id="top" class="tiles">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"><img src="assets/photo.jpg" alt="" id="heroImg"></div>
+      <div class="hero-text" id="heroText">
+        <h1 class="names">
+          <span class="write" style="--d:.5s">Iurie</span>
+          <span class="amp write" style="--d:1.4s">&</span>
+          <span class="write" style="--d:1.8s">Ana-Maria</span>
+        </h1>
+        <div class="date-line a-hero" style="--d:2.8s">
+          <i></i><span>15 · 05 · 2027</span><i></i>
+        </div>
+        <p class="caps a-hero" style="--d:3s" data-i18n="hero.day"></p>
+        <p class="hero-sub a-hero" style="--d:3.2s" data-i18n="hero.text"></p>
+        <a class="scroll-hint a-hero" style="--d:3.6s" href="#quote">
+          <span data-i18n="hero.scroll"></span><i></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ QUOTE ============ -->
+    <section class="quote-sec" id="quote">
+      <div class="branch branch-left" data-seed="1"></div>
+      <p class="monogram reveal">I&A</p>
+      <blockquote class="quote reveal" style="--d:.15s" data-i18n="quote"></blockquote>
+      <div class="branch branch-right" data-seed="2"></div>
+    </section>
+
+    <!-- ============ INVITATION + DETAILS ============ -->
+    <section class="sec">
+      <div class="wrap">
+        <div class="card center reveal">
+          <p class="eyebrow" data-i18n="invite.eyebrow"></p>
+          <h2 data-i18n="invite.title"></h2>
+          <p class="lead" data-i18n="invite.text"></p>
+
+          <div class="details">
+            <div class="detail reveal" style="--d:.1s">
+              <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+              <span class="k" data-i18n="label.date"></span>
+              <span class="v" data-i18n="value.date"></span>
+              <span class="s" data-i18n="value.weekday"></span>
+            </div>
+            <div class="detail reveal" style="--d:.2s">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.5 2"/></svg>
+              <span class="k" data-i18n="label.time"></span>
+              <span class="v">17:00</span>
+              <span class="s">&nbsp;</span>
+            </div>
+            <div class="detail reveal" style="--d:.3s">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              <span class="k" data-i18n="label.place"></span>
+              <span class="v">Lago Event Park</span>
+              <span class="s">Sala Sicilia</span>
+            </div>
+          </div>
+
+          <div class="cal">
+            <span class="cal-label" data-i18n="calendar.btn"></span>
+            <div class="btns">
+              <a class="btn ghost" id="calGoogle" target="_blank" rel="noopener">Google Calendar</a>
+              <button class="btn ghost" id="calIcs" data-i18n="calendar.ics"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GODPARENTS ============ -->
+    <section class="sec godparents">
+      <div class="branch branch-center" data-seed="3"></div>
+      <p class="eyebrow reveal" data-i18n="godparents.eyebrow"></p>
+      <p class="script-lg reveal" style="--d:.15s" data-i18n="godparents.names"></p>
+    </section>
+
+    <!-- ============ SCHEDULE ============ -->
+    <section class="sec soft">
+      <div class="wrap narrow">
+        <div class="center">
+          <p class="eyebrow reveal" data-i18n="schedule.eyebrow"></p>
+          <h2 class="reveal" data-i18n="schedule.title"></h2>
+        </div>
+        <ol class="timeline" id="timeline">
+          <li class="tl reveal">
+            <span class="tl-time">17:00</span>
+            <span class="tl-icon"><svg viewBox="0 0 32 32"><path d="M8 4h7l-.6 8a3 3 0 0 1-5.8 0z M11.5 15v10M8 27h7"/><path d="M17 4h7l-.6 8a3 3 0 0 1-5.8 0z M20.5 15v10M17 27h7"/></svg></span>
+            <span class="tl-text" data-i18n="schedule.1"></span>
+          </li>
+          <li class="tl reveal">
+            <span class="tl-time">18:00</span>
+            <span class="tl-icon"><svg viewBox="0 0 32 32"><circle cx="12" cy="19" r="7"/><circle cx="20" cy="19" r="7"/><path d="M10 8l2-3 2 3-2 2z"/></svg></span>
+            <span class="tl-text" data-i18n="schedule.2"></span>
+          </li>
+          <li class="tl reveal">
+            <span class="tl-time">19:00</span>
+            <span class="tl-icon"><svg viewBox="0 0 32 32"><path d="M12 24V7l14-3v17"/><circle cx="9" cy="24" r="3"/><circle cx="23" cy="21" r="3"/><path d="M12 12l14-3"/></svg></span>
+            <span class="tl-text" data-i18n="schedule.3"></span>
+          </li>
+          <li class="tl reveal">
+            <span class="tl-time">03:00</span>
+            <span class="tl-icon"><svg viewBox="0 0 32 32"><path d="M21 5a11 11 0 1 0 6 16A9 9 0 0 1 21 5z"/><path d="M8 7l.8 1.7L10.5 9.5 8.8 10.3 8 12l-.8-1.7L5.5 9.5l1.7-.8z"/></svg></span>
+            <span class="tl-text" data-i18n="schedule.4"></span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ VENUE ============ -->
+    <section class="sec">
+      <div class="wrap narrow venue">
+        <div class="venue-text reveal">
+          <p class="eyebrow" data-i18n="venue.eyebrow"></p>
+          <h2>Lago Event Park</h2>
+          <p class="caps" data-i18n="venue.hall"></p>
+          <p class="lead" data-i18n="venue.text"></p>
+          <div class="btns">
+            <a class="btn" id="mapLink" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-i18n="venue.map"></span></a>
+            <a class="btn ghost" id="wazeLink" target="_blank" rel="noopener">Waze</a>
+            <a class="btn ghost" id="siteLink" target="_blank" rel="noopener" data-i18n="venue.site"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOTES ============ -->
+    <section class="sec soft">
+      <div class="wrap narrow center">
+        <p class="eyebrow reveal" data-i18n="notes.eyebrow"></p>
+        <h2 class="reveal" data-i18n="notes.title"></h2>
+        <p class="lead reveal" data-i18n="notes.text"></p>
+        <div class="gifts">
+          <div class="gift reveal" style="--d:.1s">
+            <svg viewBox="0 0 48 48"><path d="M20 4h8v9c0 2 4 4 4 9v20a2 2 0 0 1-2 2H18a2 2 0 0 1-2-2V22c0-5 4-7 4-9z"/><path d="M16 26h16v10H16z"/></svg>
+            <span data-i18n="notes.bottle"></span>
+          </div>
+          <span class="gift-or">&</span>
+          <div class="gift reveal" style="--d:.2s">
+            <svg viewBox="0 0 48 48"><path d="M24 12c-5-4-12-4-18-2v28c6-2 13-2 18 2 5-4 12-4 18-2V10c-6-2-13-2-18 2z"/><path d="M24 12v28"/></svg>
+            <span data-i18n="notes.book"></span>
+          </div>
+        </div>
+        <p class="note reveal" data-i18n="notes.after"></p>
+      </div>
+    </section>
+
+    <!-- ============ RSVP + SONG ============ -->
+    <section class="sec">
+      <div class="wrap forms">
+        <div class="card reveal">
+          <p class="eyebrow" data-i18n="rsvp.eyebrow"></p>
+          <h2 data-i18n="rsvp.title"></h2>
+          <p class="muted" data-i18n="rsvp.text"></p>
+          <form id="rsvpForm" data-kind="rsvp" novalidate>
+            <label class="field"><input name="name" required placeholder=" "><span data-i18n="rsvp.name"></span></label>
+            <div class="row">
+              <label class="field"><input name="guests" type="number" min="1" max="20" value="1" required placeholder=" "><span data-i18n="rsvp.guests"></span></label>
+              <label class="field"><input name="phone" type="tel" required placeholder=" "><span data-i18n="rsvp.phone"></span></label>
+            </div>
+            <p class="q" data-i18n="rsvp.question"></p>
+            <div class="choice">
+              <label><input type="radio" name="attendance" value="yes" required><span data-i18n="rsvp.yes"></span></label>
+              <label><input type="radio" name="attendance" value="no"><span data-i18n="rsvp.no"></span></label>
+            </div>
+            <label class="field"><textarea name="message" rows="3" placeholder=" "></textarea><span data-i18n="rsvp.message"></span></label>
+            <button class="btn full" type="submit" data-i18n="rsvp.send"></button>
+            <p class="form-msg" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="card accent-card reveal" style="--d:.15s">
+          <p class="eyebrow" data-i18n="song.eyebrow"></p>
+          <h2 data-i18n="song.title"></h2>
+          <p class="muted" data-i18n="song.text"></p>
+          <form id="songForm" data-kind="song" novalidate>
+            <label class="field"><input name="song" required placeholder=" "><span data-i18n="song.song"></span></label>
+            <label class="field"><input name="artist" placeholder=" "><span data-i18n="song.artist"></span></label>
+            <button class="btn full" type="submit" data-i18n="song.send"></button>
+            <p class="form-msg" aria-live="polite"></p>
+          </form>
+          <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COUNTDOWN ============ -->
+    <section class="countdown" id="countdown">
+      <div class="cd-bg"><img src="assets/countdown.jpg" alt="" id="cdImg" loading="lazy"></div>
+      <div class="cd-inner">
+        <p class="eyebrow light reveal" data-i18n="countdown.eyebrow"></p>
+        <div class="cd-grid reveal" style="--d:.15s">
+          <div class="cd-box"><span class="num" id="cdD">000</span><span class="unit" data-i18n="countdown.days"></span></div>
+          <div class="cd-box"><span class="num" id="cdH">00</span><span class="unit" data-i18n="countdown.hours"></span></div>
+          <div class="cd-box"><span class="num" id="cdM">00</span><span class="unit" data-i18n="countdown.minutes"></span></div>
+          <div class="cd-box"><span class="num" id="cdS">00</span><span class="unit" data-i18n="countdown.seconds"></span></div>
+        </div>
+        <p class="cd-done" id="cdDone" data-i18n="countdown.done" hidden></p>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="branch branch-center" data-seed="4"></div>
+      <p class="script-lg reveal" data-i18n="footer.text"></p>
+      <p class="caps reveal" style="--d:.1s">Iurie & Ana-Maria · 15.05.2027 · Lago Event Park</p>
+    </footer>
+  </main>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <script src="js/config.js?v=24"></script>
+  <script src="js/texts.js?v=24"></script>
+  <script src="js/main.js?v=24"></script>
+  <script src="js/design.js?v=24"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* =========================================================
+   THEME — colours and fonts of the whole site.
+   Easiest way to change it: open the site with ?design at the
+   end of the address (e.g. index.html?design), play with the
+   colours, press "Copy CSS" and paste the result over this file.
+   ========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap");
+
+:root {
+  --bg: #fffdfa;        /* page background */
+  --surface: #ffffff;   /* cards */
+  --ink: #1d2a3f;       /* main text */
+  --muted: #6b7182;     /* small / secondary text */
+  --primary: #23426e;   /* main colour: buttons, titles, ornaments */
+  --accent: #563420;    /* second colour: wax seal, highlights */
+  --soft: #dde4f3;      /* light tint for soft backgrounds */
+
+  /* opening screen */
+  --paper: #fbf8f2;     /* envelope & card paper */
+  --seal: #23426e;      /* wax seal */
+
+  /* Great Vibes is kept as a fallback for Russian letters */
+  --font-script: "Pinyon Script", "Great Vibes", cursive;   /* names & titles */
+  --font-serif: "Playfair Display", Georgia, serif;          /* all other text */
+  --font-amp: "Playfair Display", Georgia, serif;            /* the "&" sign */
+}

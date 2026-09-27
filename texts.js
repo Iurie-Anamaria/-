@@ -1,0 +1,263 @@
+/* =========================================================
+   TEXTS — every text on the site, in 3 languages.
+   Edit only what is between the quotes.
+   ========================================================= */
+window.TEXTS = {
+  ro: {
+    "intro.for": "O invitație din inimă",
+    "intro.from": "de la",
+    "intro.open": "Atingeți sigiliul pentru a deschide",
+    "intro.invited": "Vă invităm",
+    "intro.weddingOf": "La nunta noastră",
+    "intro.dateLine": "15 MAI 2027",
+    "intro.continue": "Atingeți pentru a continua",
+
+    "hero.eyebrow": "Ne căsătorim",
+    "hero.day": "Sâmbătă · ora 17:00",
+    "hero.text": "Vă invităm cu toată căldura să ne fiți alături în ziua în care ne vom uni destinele.",
+    "hero.scroll": "Derulați",
+
+    "quote": "„Dincolo de cuvinte și promisiuni, există momente care ne transformă destinele.”",
+
+    "invite.eyebrow": "Invitație",
+    "invite.title": "Vă așteptăm cu drag",
+    "invite.text": "Prezența voastră va face această zi și mai specială. Ne dorim să sărbătorim alături de cei dragi începutul unei noi etape din viața noastră — cu emoție, zâmbete și amintiri frumoase.",
+    "label.date": "Data",
+    "label.time": "Ora",
+    "label.place": "Locația",
+    "value.date": "15 Mai 2027",
+    "value.weekday": "Sâmbătă",
+    "calendar.btn": "Adaugă în calendar",
+    "calendar.ics": "Apple / Outlook",
+
+    "godparents.eyebrow": "Cu susținerea nașilor",
+    "godparents.names": "Cristian & Nicoleta",
+
+    "schedule.eyebrow": "Program",
+    "schedule.title": "Programul zilei",
+    "schedule.1": "Primirea oaspeților",
+    "schedule.2": "Ceremonia",
+    "schedule.3": "Start distracției",
+    "schedule.4": "Final de seară",
+
+    "venue.eyebrow": "Locația",
+    "venue.hall": "Sala Sicilia · Dănceni",
+    "venue.text": "Un loc cu aer mediteranean, unde ne vom bucura împreună de fiecare clipă a acestei seri.",
+    "venue.map": "Deschide harta",
+    "venue.site": "Site-ul locației",
+
+    "notes.eyebrow": "Mențiune",
+    "notes.title": "O mică rugăminte",
+    "notes.text": "Vom fi recunoscători dacă tradiționalul buchet de flori va fi înlocuit cu o sticlă de băutură sau o carte preferată.",
+    "notes.bottle": "O sticlă de băutură",
+    "notes.book": "O carte preferată",
+    "notes.after": "Cel mai frumos dar rămâne însă prezența voastră.",
+
+    "song.eyebrow": "Muzică",
+    "song.title": "Sugerează o melodie",
+    "song.text": "Ajutați-ne să creăm playlist-ul perfect pentru seara noastră.",
+    "song.song": "Melodia",
+    "song.artist": "Artistul",
+    "song.send": "Trimite melodia",
+    "song.thanks": "Mulțumim! Melodia a ajuns la noi. 🎶",
+
+    "rsvp.eyebrow": "Confirmare",
+    "rsvp.title": "Confirmați prezența",
+    "rsvp.text": "Vă rugăm să ne anunțați dacă veți putea fi alături de noi.",
+    "rsvp.name": "Nume și prenume",
+    "rsvp.guests": "Număr de persoane",
+    "rsvp.phone": "Telefon / WhatsApp",
+    "rsvp.question": "Veți fi prezent(ă)?",
+    "rsvp.yes": "Da, cu drag!",
+    "rsvp.no": "Din păcate, nu",
+    "rsvp.message": "Un mesaj pentru miri (opțional)",
+    "rsvp.send": "Trimite confirmarea",
+    "rsvp.thanksYes": "Mulțumim! Abia așteptăm să sărbătorim împreună.",
+    "rsvp.thanksNo": "Mulțumim că ne-ați anunțat. Ne va fi dor de voi!",
+
+    "form.sending": "Se trimite…",
+    "form.error": "Ceva nu a mers. Vă rugăm să încercați din nou.",
+    "form.again": "Trimite încă una",
+
+    "countdown.eyebrow": "Până la marea zi",
+    "countdown.days": "Zile",
+    "countdown.hours": "Ore",
+    "countdown.minutes": "Minute",
+    "countdown.seconds": "Secunde",
+    "countdown.done": "Astăzi este ziua cea mare!",
+
+    "footer.text": "Vă așteptăm cu drag!"
+  },
+
+  ru: {
+    "intro.for": "Приглашение от всего сердца",
+    "intro.from": "от",
+    "intro.open": "Нажмите на печать, чтобы открыть",
+    "intro.invited": "Приглашаем вас",
+    "intro.weddingOf": "На нашу свадьбу",
+    "intro.dateLine": "15 МАЯ 2027",
+    "intro.continue": "Нажмите, чтобы продолжить",
+
+    "hero.eyebrow": "Мы женимся",
+    "hero.day": "Суббота · 17:00",
+    "hero.text": "С огромной теплотой приглашаем вас быть рядом с нами в день, когда мы соединим наши судьбы.",
+    "hero.scroll": "Листайте",
+
+    "quote": "«За пределами слов и обещаний есть мгновения, которые меняют наши судьбы.»",
+
+    "invite.eyebrow": "Приглашение",
+    "invite.title": "Ждём вас с любовью",
+    "invite.text": "Ваше присутствие сделает этот день ещё более особенным. Мы хотим отпраздновать вместе с близкими начало нового этапа нашей жизни — с волнением, улыбками и прекрасными воспоминаниями.",
+    "label.date": "Дата",
+    "label.time": "Время",
+    "label.place": "Место",
+    "value.date": "15 мая 2027",
+    "value.weekday": "Суббота",
+    "calendar.btn": "Добавить в календарь",
+    "calendar.ics": "Apple / Outlook",
+
+    "godparents.eyebrow": "При поддержке посажёных родителей",
+    "godparents.names": "Cristian & Nicoleta",
+
+    "schedule.eyebrow": "Программа",
+    "schedule.title": "Программа дня",
+    "schedule.1": "Встреча гостей",
+    "schedule.2": "Церемония",
+    "schedule.3": "Начало праздника",
+    "schedule.4": "Завершение вечера",
+
+    "venue.eyebrow": "Место",
+    "venue.hall": "Зал Sicilia · Дэнчень",
+    "venue.text": "Место со средиземноморской атмосферой, где мы вместе насладимся каждым мгновением этого вечера.",
+    "venue.map": "Открыть карту",
+    "venue.site": "Сайт заведения",
+
+    "notes.eyebrow": "Примечание",
+    "notes.title": "Вместо цветов",
+    "notes.text": "Мы будем благодарны, если традиционный букет цветов вы замените бутылкой напитка или любимой книгой.",
+    "notes.bottle": "Бутылка напитка",
+    "notes.book": "Любимая книга",
+    "notes.after": "Но самым дорогим подарком для нас станет ваше присутствие.",
+
+    "song.eyebrow": "Музыка",
+    "song.title": "Предложите песню",
+    "song.text": "Помогите нам составить идеальный плейлист для нашего вечера.",
+    "song.song": "Песня",
+    "song.artist": "Исполнитель",
+    "song.send": "Отправить песню",
+    "song.thanks": "Спасибо! Ваша песня у нас. 🎶",
+
+    "rsvp.eyebrow": "Подтверждение",
+    "rsvp.title": "Подтвердите присутствие",
+    "rsvp.text": "Пожалуйста, сообщите нам, сможете ли вы быть с нами.",
+    "rsvp.name": "Имя и фамилия",
+    "rsvp.guests": "Количество гостей",
+    "rsvp.phone": "Телефон / WhatsApp",
+    "rsvp.question": "Вы будете с нами?",
+    "rsvp.yes": "Да, с радостью!",
+    "rsvp.no": "К сожалению, нет",
+    "rsvp.message": "Пожелание молодым (необязательно)",
+    "rsvp.send": "Отправить ответ",
+    "rsvp.thanksYes": "Спасибо! С нетерпением ждём праздника вместе с вами.",
+    "rsvp.thanksNo": "Спасибо, что сообщили. Нам будет вас не хватать!",
+
+    "form.sending": "Отправка…",
+    "form.error": "Что-то пошло не так. Пожалуйста, попробуйте ещё раз.",
+    "form.again": "Отправить ещё",
+
+    "countdown.eyebrow": "До большого дня",
+    "countdown.days": "Дней",
+    "countdown.hours": "Часов",
+    "countdown.minutes": "Минут",
+    "countdown.seconds": "Секунд",
+    "countdown.done": "Сегодня тот самый день!",
+
+    "footer.text": "Ждём вас с любовью!"
+  },
+
+  en: {
+    "intro.for": "An invitation from the heart",
+    "intro.from": "from",
+    "intro.open": "Tap the seal to open",
+    "intro.invited": "We invite you",
+    "intro.weddingOf": "To our wedding",
+    "intro.dateLine": "MAY 15, 2027",
+    "intro.continue": "Tap to continue",
+
+    "hero.eyebrow": "We're getting married",
+    "hero.day": "Saturday · 5:00 PM",
+    "hero.text": "We warmly invite you to be with us on the day we unite our destinies.",
+    "hero.scroll": "Scroll",
+
+    "quote": "“Beyond words and promises, there are moments that transform our destinies.”",
+
+    "invite.eyebrow": "Invitation",
+    "invite.title": "We look forward to seeing you",
+    "invite.text": "Your presence will make this day even more special. We would love to celebrate the beginning of a new chapter of our lives surrounded by our dearest people — with joy, smiles and beautiful memories.",
+    "label.date": "Date",
+    "label.time": "Time",
+    "label.place": "Venue",
+    "value.date": "15 May 2027",
+    "value.weekday": "Saturday",
+    "calendar.btn": "Add to calendar",
+    "calendar.ics": "Apple / Outlook",
+
+    "godparents.eyebrow": "With the support of our godparents",
+    "godparents.names": "Cristian & Nicoleta",
+
+    "schedule.eyebrow": "Schedule",
+    "schedule.title": "The day",
+    "schedule.1": "Guest welcome",
+    "schedule.2": "Ceremony",
+    "schedule.3": "Let the party begin",
+    "schedule.4": "End of the evening",
+
+    "venue.eyebrow": "Venue",
+    "venue.hall": "Sicilia Hall · Dănceni",
+    "venue.text": "A venue with a Mediterranean spirit, where we will enjoy every moment of this evening together.",
+    "venue.map": "Open map",
+    "venue.site": "Venue website",
+
+    "notes.eyebrow": "A note",
+    "notes.title": "Instead of flowers",
+    "notes.text": "We would be grateful if the traditional bouquet of flowers were replaced with a bottle of your favourite drink or a favourite book.",
+    "notes.bottle": "A bottle of something nice",
+    "notes.book": "A favourite book",
+    "notes.after": "Still, the most precious gift is your presence.",
+
+    "song.eyebrow": "Music",
+    "song.title": "Suggest a song",
+    "song.text": "Help us create the perfect playlist for our evening.",
+    "song.song": "Song",
+    "song.artist": "Artist",
+    "song.send": "Send song",
+    "song.thanks": "Thank you! Your song reached us. 🎶",
+
+    "rsvp.eyebrow": "RSVP",
+    "rsvp.title": "Will you join us?",
+    "rsvp.text": "Please let us know whether you will be able to celebrate with us.",
+    "rsvp.name": "Full name",
+    "rsvp.guests": "Number of guests",
+    "rsvp.phone": "Phone / WhatsApp",
+    "rsvp.question": "Will you attend?",
+    "rsvp.yes": "Yes, with pleasure!",
+    "rsvp.no": "Unfortunately, no",
+    "rsvp.message": "A message for the couple (optional)",
+    "rsvp.send": "Send RSVP",
+    "rsvp.thanksYes": "Thank you! We can't wait to celebrate together.",
+    "rsvp.thanksNo": "Thank you for letting us know. We will miss you!",
+
+    "form.sending": "Sending…",
+    "form.error": "Something went wrong. Please try again.",
+    "form.again": "Send another",
+
+    "countdown.eyebrow": "Until the big day",
+    "countdown.days": "Days",
+    "countdown.hours": "Hours",
+    "countdown.minutes": "Minutes",
+    "countdown.seconds": "Seconds",
+    "countdown.done": "Today is the big day!",
+
+    "footer.text": "We can't wait to see you!"
+  }
+};
