@@ -1,6 +1,6 @@
 /* =========================================================
    DESIGN EDITOR — only appears when the address ends with ?design
-   Pick colours/fonts live, then "Copy CSS" and paste into css/theme.css.
+   Pick colours/fonts live, then "Copy CSS" and paste into theme.css.
    Guests never see this panel.
    ========================================================= */
 (function () {
@@ -61,7 +61,7 @@
     <select data-font="amp">${AMPS.map(f => `<option>${f}</option>`).join("")}</select>
     <div class="b"><button class="s" data-replay>▶ Preview opening (envelope + seal)</button></div>
     <div class="b"><button class="s" data-reset>Reset</button><button class="p" data-copy>Copy CSS</button></div>
-    <small>Paste the copied CSS over everything in <b>css/theme.css</b>, save and refresh. Russian letters automatically use Great Vibes when the script font has none.</small>`;
+    <small>Paste the copied CSS over everything in <b>theme.css</b>, save and refresh. Russian letters automatically use Great Vibes when the script font has none.</small>`;
   document.body.appendChild(box);
 
   function apply() {

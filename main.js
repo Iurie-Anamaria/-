@@ -357,7 +357,7 @@
       if (kind === "rsvp") payload.attendance = data.attendance === "yes" ? "DA / YES" : "NU / NO";
 
       try {
-        if (!C.email || C.email.includes("YOUR_EMAIL")) throw new Error("Set your email in js/config.js");
+        if (!C.email || C.email.includes("YOUR_EMAIL")) throw new Error("Set your email in config.js");
         const res = await fetch(`https://formsubmit.co/ajax/${C.email}`, {
           method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
           body: JSON.stringify(payload)
